@@ -5,7 +5,7 @@ Created on Tue Sep 22 18:49:58 2015
 @author: xavierduportet
 """
 
-for i in range(0, 101):
+for i in range(0, 100):
     if(i % 2) == 0:
         sum = i + i
         print(sum)
