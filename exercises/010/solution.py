@@ -13,7 +13,4 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  endlessly debates this alarming chain of events, the Supreme\
  Chancellor has secretly dispatched two Jedi Knights, the guardians of\
  peace and justice in the galaxy, to settle the conflict"""
-# print(phantom_menace.split())
-# don't forget the () behind the .split
-#Now the string has become a list,so you can count the number of words in the list
 print(len(phantom_menace.split()))
