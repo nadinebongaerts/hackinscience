@@ -8,4 +8,4 @@ Created on Tue Sep 22 17:40:55 2015
 import datetime
 today = datetime.date.today()
 now = datetime.datetime.now().strftime("%H:%M:%S")
-print('This is', today, 'and it is', now)
+print('Today is', today, 'and it is', now)
