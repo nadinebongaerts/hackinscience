@@ -11,4 +11,5 @@ abcd = list(abc)
 for x in abcd:
     for y in abcd:
             keywords.append(x+y)
-print(keywords)
+for i in keywords:
+    print(i)
