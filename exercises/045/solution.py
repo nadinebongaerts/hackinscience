@@ -4,7 +4,9 @@ Created on Wed Sep 23 10:48:29 2015
 
 @author: xavierduportet
 """
+import math
+num = input()
 
-def sqrt(x):
-    return x**0.5
-print(x)
+
+def sqrt(num):
+    print(math.sqrt(num))
