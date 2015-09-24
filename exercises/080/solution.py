@@ -7,7 +7,5 @@ Created on Wed Sep 23 18:04:33 2015
 
 import itertools
 
-result = itertools.combinations('abcdefghijklmnopqrstuwvyz', 2)
-
-for i in result:
-    print(i)
+for i in itertools.combinations('abcdefghijklmnopqrstuvwxyz', 2):
+    print(i[0]+i[1])
