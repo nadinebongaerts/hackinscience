@@ -1,10 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Sep 24 14:53:03 2015
+Created on Fri Sep 25 10:49:39 2015
 
 @author: xavierduportet
 """
 
+import sys
 
-def sort_a_list(l):
-    return sorted(l)
+
+def order(l):
+    return list(enumerate(l))
+
+l = sys.argv
+
+print(order(l))
