@@ -12,5 +12,7 @@ def order(l):
     return list(enumerate(l))
 
 l = sys.argv
+order(l)
 
-print(order(l))
+for i in order(l):
+    print(i[0]+i[1])
