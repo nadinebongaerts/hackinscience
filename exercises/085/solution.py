@@ -8,11 +8,12 @@ import operator
 
 
 def sort_a_list(l):
-    return sorted(l)
+    return sorted(l, reverse=True)
 
 
 def sort_by_mark(my_class):
-    return sorted(my_class)
+    mark = operator.itemgetter(0)
+    return sorted(my_class, key=mark, reverse=True)
 
 
 def sort_by_name(my_class):
