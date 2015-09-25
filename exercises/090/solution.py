@@ -15,4 +15,4 @@ l = sys.argv
 order(l)
 
 for i in order(l):
-    print(i[0]+i[1])
+    print(i[0], i[1])
